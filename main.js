@@ -1,10 +1,23 @@
+
 $(document).on('ready', function() {
-  $(".edit-paragraph").mouseenter(function(){
-  	$(".edit-paragraph").css("background-color", "lightblue");
-  	$(".edit-paragraph").css("padding", "30px");
+  
+
+  $(".text-container").click(function(){
+  	$(".edit-paragraph").hide();
+  	$(".input-container").show();
+  	$('textarea').show();
+  	$('textarea').focus();
   });
-  $(".edit-paragraph").mouseleave(function(){
-  	$(".edit-paragraph").css("background-color", "#FFF");
-  	$(".edit-paragraph").css("padding", "10px");
+
+  $(".input-container").click(function(){
+
+  		$(".edit-paragraph").show();
+  		$('textarea').hide();
+  		$('.edit-paragraph').text($('textarea').val());
+
   });
+
+
+
 });
+

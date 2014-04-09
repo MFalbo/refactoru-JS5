@@ -1,0 +1,47 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #EEE;
+}
+
+.title{
+	display: inline-block;
+	width: 20%;
+}
+
+.title-link{
+	display: inline-block;
+	border-left: 1px solid #AAA;
+	padding-left: 10px;
+}
+
+.title-link a{
+	color: #AAA;
+}
+
+img{
+	display: block;
+	height: 300px;
+	width: 300px;
+}
+
+.main-content{
+	float: left;
+	width: 45%;
+	margin: 3% 1%;
+	background-color: #FFF;
+	border: 2px solid #BBB;
+	padding: 10px;
+}
+
+.col-left{
+	margin-left: 0;
+}
+
+.main-content h2{
+	border-bottom: 1px solid #BBB;
+}
+
+.edit-paragraph{
+	width: 50%;
+}

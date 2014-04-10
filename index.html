@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <title>JS5 - Edit in Place</title>
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
-	<div class="title"><h1 id="user-name">User Name</h1></div>
+	<div class="title"><h1 id="user-name" class="editable">User Name</h1></div>
 
 	<h2 class="title-link"><a href="#">Edit</a></h2>
 
@@ -27,8 +28,14 @@
 				<p class="editable">Click to edit.</p>
 			</div>
 	</div>
+
+
+	<h3 class="editable">This is an editable h3</h3>
 	
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.poshytip.min.js"></script>
+  <!-- X-editable Library Script -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.js"></script>
   <script src="main.js"></script>
 
 </body>
